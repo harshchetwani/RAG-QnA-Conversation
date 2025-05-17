@@ -27,15 +27,10 @@ This project is an interactive Conversational Retrieval-Augmented Generation (RA
 
 📦 File Support
 You can upload any of the following file types:
-
 .pdf
-
 .docx
-
 .txt
-
 .csv
-
 .md
 
 🧰 Tech Stack
@@ -49,24 +44,13 @@ UI	Streamlit
 Chat History	langchain_core.chat_history
 🔐 Setup Instructions
 1. Clone the repository
-bash
-Copy
-Edit
 git clone https://github.com/<your-username>/RAG-QnA-Conversation.git
 cd RAG-QnA-Conversation
 2. Install dependencies
 Create a virtual environment and install from requirements.txt:
-
-bash
-Copy
-Edit
 pip install -r requirements.txt
 3. Create a .env file
 ⚠️ Never commit this file. It's in .gitignore.
-
-env
-Copy
-Edit
 HF_TOKEN=your_huggingface_token
 4. Run the Streamlit app
 bash
